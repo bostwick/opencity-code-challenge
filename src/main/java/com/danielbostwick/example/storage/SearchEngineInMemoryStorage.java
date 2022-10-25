@@ -65,6 +65,7 @@ public class SearchEngineInMemoryStorage implements SearchEngineStorage {
     log(() -> String.format("SearchEngineInMemoryStorage#matchDocuments - expression:'%s'", expression));
     log(() -> String.format("SearchEngineInMemoryStorage#matchDocuments - tokensToDocuments:\n%s", tokenToDocuments));
 
-    return expression.matches(tokenToDocuments.entrySet());
+
+    return expression.matches(tokenToDocuments);
   }
 }

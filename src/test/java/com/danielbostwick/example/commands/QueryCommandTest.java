@@ -34,8 +34,8 @@ class QueryCommandTest {
     final var queryResult3 = QueryCommand.fromTokens(CMD_QUERY_EXAMPLE_3, storage).apply();
     assertEquals(Set.of(3), queryResult3.documentIds);
 
-//    final var queryResult4 = QueryCommand.fromTokens(CMD_QUERY_EXAMPLE_4, storage).apply();
-//    assertEquals(Set.of(1, 3), queryResult4.documentIds);
+    final var queryResult4 = QueryCommand.fromTokens(CMD_QUERY_EXAMPLE_4, storage).apply();
+    assertEquals(Set.of(1, 3), queryResult4.documentIds);
 
     final var queryResult5 = QueryCommand.fromTokens(CMD_QUERY_EXAMPLE_5, storage).apply();
     assertEquals(Set.of(), queryResult5.documentIds);

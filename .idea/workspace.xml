@@ -4,45 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d10e20ee-ee6a-4bc7-baf6-ec845c2c5eb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/SearchEngineApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/SearchEngineCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/SearchEngineCommandResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/SearchEngineRepl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/SearchEngineServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/SearchEngineStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/Utilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/commands/DebugCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/commands/ExitCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/commands/IndexCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/commands/QueryCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/errors/InvalidCommmandTokenError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/errors/InvalidIndexCommandError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/errors/InvalidQueryCommandError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/models/QueryExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/results/IndexResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/results/QueryResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/storage/SearchEngineInMemoryStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/danielbostwick/example/TestFixtures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/danielbostwick/example/commands/IndexCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/danielbostwick/example/commands/QueryCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/danielbostwick/example/models/QueryExpressionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/danielbostwick/example/storage/SearchEngineInMemoryStorageTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="d10e20ee-ee6a-4bc7-baf6-ec845c2c5eb3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -273,7 +235,7 @@
       <updated>1666621186388</updated>
       <workItem from="1666621187894" duration="7557000" />
       <workItem from="1666637690129" duration="3915000" />
-      <workItem from="1666647760383" duration="9482000" />
+      <workItem from="1666647760383" duration="9834000" />
     </task>
     <servers />
   </component>

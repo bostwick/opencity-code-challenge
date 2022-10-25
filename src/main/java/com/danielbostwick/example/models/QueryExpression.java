@@ -15,7 +15,7 @@ import static com.danielbostwick.example.Utilities.log;
 public interface QueryExpression {
   Set<String> tokens();
 
-  Set<Integer> matches(final Set<Map.Entry<String, Set<Integer>>> entries);
+  Set<Integer> matches(final Map<String, Set<Integer>> tokenToDocuments);
 
   static QueryExpression parse(final String expression) {
     log(() -> String.format("QueryExpression.parse() - expression:'%s'", expression));
@@ -112,11 +112,8 @@ class QueryExpressionToken implements QueryExpression {
   }
 
   @Override
-  public Set<Integer> matches(final Set<Map.Entry<String, Set<Integer>>> entries) {
-    return entries.stream()
-        .filter(entry -> entry.getKey().equalsIgnoreCase(this.token))
-        .flatMap(entry -> entry.getValue().stream())
-        .collect(Collectors.toSet());
+  public Set<Integer> matches(final Map<String, Set<Integer>> tokenToDocuments) {
+    return tokenToDocuments.getOrDefault(this.token, Set.of());
   }
 
   @Override
@@ -149,9 +146,9 @@ class QueryExpressionConjunction implements QueryExpression {
   }
 
   @Override
-  public Set<Integer> matches(final Set<Map.Entry<String, Set<Integer>>> entries) {
-    final var leftMatches = left.matches(entries);
-    final var rightMatches = right.matches(entries);
+  public Set<Integer> matches(final Map<String, Set<Integer>> tokenToDocuments) {
+    final var leftMatches = left.matches(tokenToDocuments);
+    final var rightMatches = right.matches(tokenToDocuments);
 
     final var result = new HashSet<>(leftMatches);
     result.retainAll(rightMatches);
@@ -189,9 +186,9 @@ class QueryExpressionDisjunction implements QueryExpression {
   }
 
   @Override
-  public Set<Integer> matches(Set<Map.Entry<String, Set<Integer>>> entries) {
-    final var leftMatches = left.matches(entries);
-    final var rightMatches = right.matches(entries);
+  public Set<Integer> matches(final Map<String, Set<Integer>> tokenToDocuments) {
+    final var leftMatches = left.matches(tokenToDocuments);
+    final var rightMatches = right.matches(tokenToDocuments);
 
     final var result = new HashSet<>(leftMatches);
     result.addAll(rightMatches);
