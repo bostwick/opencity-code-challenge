@@ -4,7 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d10e20ee-ee6a-4bc7-baf6-ec845c2c5eb3" name="Changes" comment="" />
+    <list default="true" id="d10e20ee-ee6a-4bc7-baf6-ec845c2c5eb3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/SearchEngineApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/SearchEngineCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/SearchEngineCommandResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/SearchEngineRepl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/SearchEngineServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/SearchEngineStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/Utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/commands/DebugCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/commands/ExitCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/commands/IndexCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/commands/QueryCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/errors/InvalidCommmandTokenError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/errors/InvalidIndexCommandError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/errors/InvalidQueryCommandError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/models/QueryExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/results/IndexResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/results/QueryResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/danielbostwick/example/storage/SearchEngineInMemoryStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/danielbostwick/example/TestFixtures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/danielbostwick/example/commands/IndexCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/danielbostwick/example/commands/QueryCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/danielbostwick/example/models/QueryExpressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/danielbostwick/example/storage/SearchEngineInMemoryStorageTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +52,52 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="opencity-code-challenge" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="opencity-code-challenge" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="opencity-code-challenge" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GaKJA9FjcFqOERjikoP8DeHYm4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -25,9 +109,160 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_directory_selection": "/Users/daniel.bostwick/Development/opencity-code-challenge/src/test/java/com/danielbostwick/example",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.danielbostwick.example.errors" />
+      <recent name="com.danielbostwick.example" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.danielbostwick.example.Utilities" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.danielbostwick.example.models" />
+      <recent name="com.danielbostwick.example.commands" />
+      <recent name="com.danielbostwick.example.storage" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Tests in 'opencity-code-challenge.test'">
+    <configuration name="QueryCommandTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.danielbostwick.example.commands.QueryCommandTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="QueryExpressionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.danielbostwick.example.models.QueryExpressionTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="QueryExpressionTest.parse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.danielbostwick.example.models.QueryExpressionTest.parse&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="QueryExpressionTest.tokenize" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.danielbostwick.example.models.QueryExpressionTest.tokenize&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'opencity-code-challenge.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'opencity-code-challenge.test'" />
+        <item itemvalue="Gradle.QueryExpressionTest" />
+        <item itemvalue="Gradle.QueryExpressionTest.parse" />
+        <item itemvalue="Gradle.QueryCommandTest" />
+        <item itemvalue="Gradle.QueryExpressionTest.tokenize" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,8 +271,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666621186388</updated>
+      <workItem from="1666621187894" duration="7557000" />
+      <workItem from="1666637690129" duration="3915000" />
+      <workItem from="1666647760383" duration="9482000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

@@ -2,7 +2,7 @@ package com.danielbostwick.example;
 
 import java.util.List;
 
-public interface TextFixtures {
+public interface TestFixtures {
   List<String> CMD_INDEX_EXAMPLE_1 = List.of(
       "index", "1", "soup", "tomato", "cream", "salt");
   List<String> CMD_INDEX_EXAMPLE_2 = List.of(

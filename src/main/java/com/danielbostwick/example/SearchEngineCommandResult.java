@@ -1,2 +1,4 @@
-package com.danielbostwick.example;public class SearchEngineCommandResult {
+package com.danielbostwick.example;
+
+public interface SearchEngineCommandResult {
 }

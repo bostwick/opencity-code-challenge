@@ -9,6 +9,7 @@ public class InvalidCommmandTokenError extends RuntimeException {
   }
 
   private InvalidCommmandTokenError(final String token) {
+    super(String.format("invalid command '%s'", token));
     this.token = token;
   }
 }

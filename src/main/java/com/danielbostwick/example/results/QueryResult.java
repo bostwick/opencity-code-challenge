@@ -1,11 +1,19 @@
-package com.danielbostwick.example.models;
+package com.danielbostwick.example.results;
 
-import java.util.List;
+import com.danielbostwick.example.SearchEngineCommandResult;
 
-public class QueryResult {
-  public final List<Integer> documentIds;
+import java.util.Set;
+import java.util.stream.Collectors;
 
-  public QueryResult(final List<Integer> documentIds) {
+public class QueryResult implements SearchEngineCommandResult {
+  public final Set<Integer> documentIds;
+
+  public QueryResult(final Set<Integer> documentIds) {
     this.documentIds = documentIds;
+  }
+
+  @Override
+  public String toString() {
+    return "query results " + documentIds.stream().map(id -> id.toString()).collect(Collectors.joining(" "));
   }
 }

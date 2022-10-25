@@ -1,7 +1,8 @@
 package com.danielbostwick.example;
 
-public class Main {
-  public static void main(String[] args) {
-    System.out.println("Hello world!");
+public final class SearchEngineApp {
+  public static void main(final String[] args) {
+    SearchEngineServices.initialize();
+    new SearchEngineRepl().run();
   }
 }
